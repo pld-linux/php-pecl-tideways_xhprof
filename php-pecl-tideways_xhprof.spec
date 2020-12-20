@@ -6,12 +6,12 @@
 %define		modname	tideways_xhprof
 Summary:	%{modname} Tideways XHProf Extension
 Name:		%{php_name}-pecl-%{modname}
-Version:	5.0.2
+Version:	5.0.4
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/PHP
 Source0:	https://github.com/tideways/php-xhprof-extension/archive/v%{version}/%{modname}-%{version}.tar.gz
-# Source0-md5:	374cf4ff7ba03401a279777abe94815d
+# Source0-md5:	68b68cd9410e62b8481445e0d89220c0
 URL:		https://github.com/tideways/php-xhprof-extension
 BuildRequires:	%{php_name}-cli
 BuildRequires:	%{php_name}-devel >= 4:7.0
